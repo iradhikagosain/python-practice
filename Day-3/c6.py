@@ -1,6 +1,5 @@
 prompt=input("enter input:")
 prompt1=int(prompt)
-if type(prompt1)==int:
+if (prompt1):
     print("result:",prompt)
-else:
-    print("Invalid result,enter a valid number")
+#value Error
